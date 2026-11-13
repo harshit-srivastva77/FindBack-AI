@@ -2,7 +2,7 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import './App.css'
 
-const API_URL = 'http://localhost:5000/api/items'
+const API_URL = 'http://findback-ai-q4we.onrender.com/api/items'
 
 type Item = {
   id: string
